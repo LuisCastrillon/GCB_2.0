@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center ;
     z-index: 9;
+    transition: .5s;
 }
 .headerLinks .link{
     text-decoration: none;

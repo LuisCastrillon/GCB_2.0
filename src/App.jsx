@@ -10,6 +10,8 @@ import appointmentPageImg from './img/start/appointments-2021.jpg';
 import contactPageImg from './img/start/contact-1.jpg';
 import { About } from "./components/About";
 import { useState } from "react";
+import { Gallery } from "./components/Gallery";
+import { ContactUs } from "./components/ContactUs";
 
 function App() {
   const [openedMenu, setOpenMenu ] = useState(false)
@@ -69,8 +71,8 @@ const galleryPageData = {
         <Route path="/"  element={<Home></Home>} ></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/aboutUs" element={<><Page data={aboutPageData}></Page><About></About></>}></Route>
-        <Route path="/gallery" element={<Page data={galleryPageData}></Page>}></Route>
-        <Route path="/contactUs" element={<Page data={contactPageData}></Page>}></Route>
+        <Route path="/gallery" element={<><Page data={galleryPageData}></Page><Gallery></Gallery></>}></Route>
+        <Route path="/contactUs" element={<><Page data={contactPageData}></Page><ContactUs></ContactUs></>}></Route>
         <Route path="/apointment" element={<Page data={appointmentPageData}></Page>}></Route>
       </Routes>
     </BrowserRouter>
