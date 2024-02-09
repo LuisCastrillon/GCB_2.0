@@ -1,0 +1,101 @@
+.blackHome{
+    background-image: url("../img/home/AdobeStock_630362996_Preview.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.home{
+    background-color: rgba(0, 0, 0, 0.65);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homeContent h1{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    margin:10px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 15px;
+    font-weight: lighter;
+}
+.homeContent h3{
+    text-align: center;
+    font-size: 30px;
+    margin:10px;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+
+}
+.homeContent button{
+    text-align: center;
+    margin:10px;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #883C04;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    transition: .3s;
+}
+.homeContent button:hover{
+    background-color: #fff;
+    color: #883C04;
+}
+
+.home_section2{
+    background-color: #DFDFDF;
+    min-height: 250px;
+    display: flex;
+    padding: 80px;
+    gap: 20px;
+}
+
+.home_section2_cnt1{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+.home_section2_cnt1 h1{
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+}
+    .home_section2_cnt1 h1::before{
+        content: "BARBERIA";
+        color: #883C04;
+    }
+.home_section2_cnt1 p{
+    font-family: 'Open Sans', sans-serif;
+}
+.home_section2_cnt2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around   ;
+}
+.home_section2_cnt2 div{
+    width: 230px;
+    margin: 10px;
+}
+.home_section2_cnt2 div img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    opacity: .8;
+}

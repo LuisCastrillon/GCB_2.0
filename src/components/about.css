@@ -1,0 +1,33 @@
+.aboutPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    min-height: 200px;
+    padding: 50px;
+    position: relative;
+}
+.about{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.about h1, .about p{
+    color: #333333;
+    font-weight: lighter;
+    font-family: 'Oswald';
+    padding: 10px;
+}
+.about p{
+    border-top:1px solid #883C04;
+    
+}
+.span{
+    background-color: #883C04;
+    width: 50%;
+    height: 10px;
+    position: absolute;
+    top:0
+}
